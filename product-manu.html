@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="css/product-manu.css">
+  </head>
+  <body>
+    <div class="full">
+    <div class="header">
+      <div class="header-logo">
+        <img src="images/logo.png" alt="no-logo" height="60px" width="60px" class="logo">
+        <p class="forgery-block">Forgery Block</p>
+      </div>
+      <div class="header-element">
+        <ul>
+          <li><a href="landing.html" style="text-decoration: none; color: white;"> Home </a></li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main1">
+        <img src="images/roberto-cortese-ejhjSZKTeeg-unsplash.jpg" class="bg1" height="600px" width="430px">
+      </div>
+      <div class="main11">
+      <div class="main2">
+        <div class="main21">
+          <p class="a1">Serial Number</p>
+          <p class="a1">Product Name</p>
+          <p class="a1">Source</p>
+          <p class="a1">Destination</p>
+          <p class="a1" style="margin-bottom:62px;">Remarks</p>
+          <br>
+          <br><br>
+          <br><br>
+        </div>
+        
+        <div class="main22">
+          <br>
+          <br>
+          <form action="../manu-products.php" method="post">
+          <input type="text" class="serial1" id="serialNumber" placeholder="Enter the Serial Number" name="serialnumber">
+          <input type="text" class="serial2" id="productName" placeholder="Enter the Product Name" name="productname">
+          <input type="text" class="serial3" id="source" placeholder="Enter the Source" name="source">
+          <input type="text" class="serial4" id="destination" placeholder="Enter the Destination" name="destination">
+          <input type="text" class="serial5" id="remarks" placeholder="Enter the Remarks">
+          
+          
+          <button class="block2" type="submit" id="submitbutton" disabled> Add Block</button>
+      
+          </form>
+          <br>
+          <button class="block1" onclick="generateQRCode()" style="margin-bottom: 10px; display: block;"> Generate Qr
+            Code</button>
+        </div>
+        </div>
+        </div>
+        <div class="qr" style="margin-top: 40px;">
+          <h2 class="h2"></h2>
+          <div id="qrcode"></div>
+        </div>
+      </div>
+      
+      </div>
+      
+      <script src="js/qrcode.js"></script>
+      <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header1{
+  background-color: transparent;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.header-logo{
+  display: flex;
+}
+.forgery-block{
+  margin-top: 18px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+body{
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  object-fit: cover;
+  font-family: sans-serif;
+  backdrop-filter: blur(3px);
+  max-height: 700px;
+  background: linear-gradient(rgb(20, 4, 40),rgb(14, 0, 33));
+}
+.header-element ul{
+  margin-top: 18px;
+}
+.header-element li{
+  margin-right:60px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  text-align: end;
+  display: inline-block;
+  position: relative;
+}
+.header-element{
+  text-align: right;
+}
+.landing1{
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  min-height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  border: 2px solid rgb(189, 189, 189);
+}
+.landing2 {
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  background: transparent;
+  border-radius: 20px;
+  min-height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(189, 189, 189);
+  
+}
+.landing3{
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  border-radius: 20px;
+  min-height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(189, 189, 189);
+}
+.landing4 {
+  display: inline-block;
+  padding: 30px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  min-height: 200px;
+  margin-right: 20px;
+  font-size: 20px;
+  border: 2px solid rgb(189, 189, 189);
+}
+.landing{
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: auto;
+}
+h4{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.land-bt1{
+  padding: 15px;
+  background-color: rgb(41, 161, 221);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.land-bt1:hover{
+  background-color: rgb(62, 136, 136);
+  padding: 20px;
+}
+.a1,.a2,.a3,.a4{
+  color: white;
+}
+.thehead{
+  background-image: url(/Block_chain/images/landing1st.png);
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 650px;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 30px;
+}
+.li1{
+  color: red;
+}
+.li1:hover{
+  color: grey;
+}
